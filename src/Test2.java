@@ -7,7 +7,7 @@ public class Test2
 		
 		String hunger="yes";
 		
-		if(hunger.equals("yes"))
+		if(hunger.equals("yes") || hunger=="Y" || hunger=="y")
 		{
 			System.out.println("Eat Something.....");
 		}
